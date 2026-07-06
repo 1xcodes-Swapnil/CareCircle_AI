@@ -1,8 +1,4 @@
 # CareCircle AI — Production-Grade AI-Native Platform Architecture Review & Evolution
-**Author:** Principal Software Architect, Google / DeepMind AI Systems Co-Founder
-**Target:** Kaggle AI Agents Intensive Capstone — Series A Investment Validation
-
----
 
 ## Executive Summary
 
