@@ -1,0 +1,6 @@
+{
+  "name": "CareCircle AI",
+  "description": "Your AI Family Care Companion - An AI-powered Family Wellbeing Platform providing intelligent monitoring, wellbeing insights, emergency coordination, and mental wellness support using autonomous AI agents.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
