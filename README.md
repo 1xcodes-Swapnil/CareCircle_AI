@@ -170,7 +170,7 @@ GEMINI_API_KEY=your_google_gemini_api_key_here
    ```bash
    npm start
    ```
-Demo On : https://carecircle-backend-xuw3.onrender.com/ 
+Demo On: https://carecircle-backend-xuw3.onrender.com/
 ---
 
 ## 7. Mock Demo Credentials
