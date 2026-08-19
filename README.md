@@ -1,7 +1,37 @@
 # CareCircle AI
-## Enterprise-Grade Event-Driven Multi-Agent Family Care & Wellbeing Platform
+##  Event-Driven Multi-Agent Family Care & Wellbeing Platform
+<p align="center"> <strong>An intelligent multi-agent platform connecting caregivers, recipients, and specialized AI agents through contextual memory, reasoning, and voice interaction.</strong> </p>
 
-CareCircle AI is a modern, secure, and resilient health-orchestration platform designed to support family caregivers. Deployed as a full-stack, event-driven multi-agent ecosystem, it translates unstructured clinical files, analyzes wearable telemetry streams, schedules medications, coordinates caregiving circles, and performs real-time cognitive-behavioral wellness checks.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/JavaScript%20%2F%20TypeScript-Frontend-F7DF1E?style=for-the-badge&logo=typescript&logoColor=white" alt="JavaScript / TypeScript">
+  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Python-AI%20%26%20Backend-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/pgvector-Vector%20Search-336791?style=for-the-badge" alt="pgvector">
+  <img src="https://img.shields.io/badge/Redis-Memory%20%26%20Streams-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/Kong-API%20Gateway-003459?style=for-the-badge&logo=kong&logoColor=white" alt="Kong">
+  <img src="https://img.shields.io/badge/Google%20Cloud-Infrastructure-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud">
+</p>
+
+##  🌟 Overview
+
+CareCircle AI is a modern, secure, and reliable health-care support platform built for family caregivers. It brings health information, daily care tasks, and wellness data together in one place.
+
+Built as a full-stack, event-driven multi-agent system, CareCircle AI uses different AI agents to handle specific care tasks and work together to support caregivers.
+
+The platform can:
+
+* 📄 Read clinical files and turn unstructured information into useful health data.
+* ⌚ Analyze wearable data to track health and wellness signals.
+* 💊 Schedule medications and help caregivers manage medication routines.
+* 👥 Connect caregiving circles so family members can coordinate care.
+* 🧠 Check cognitive and behavioral wellness in real time.
+* 🤖 Use specialized AI agents for different care tasks.
+* 🧠 Remember important context to provide more relevant responses.
+* ⚡ Process events in real time across the platform.
+* 🎙️ Support real-time voice-based interaction through the AI assistant.
 
 ---
 
@@ -170,7 +200,10 @@ GEMINI_API_KEY=your_google_gemini_api_key_here
    ```bash
    npm start
    ```
-Demo On: https://carecircle-backend-xuw3.onrender.com/
+---
+🌐 Live Demo
+
+  https://carecircle-backend-xuw3.onrender.com/
 ---
 
 ## 7. Mock Demo Credentials
@@ -183,11 +216,11 @@ Use the following seed credentials to log in and test all caregiver workflows:
 | **Care Recipient** | `eleanor.vance@example.com` | `password123` |
 
 ---
+## 8. Hackathon Context
 
-## 8. Hackathon Evaluation Alignment
+Developed as part of the Google × Kaggle 5-Day AI Agents Intensive, CareCircle AI applies multi-agent AI concepts to real-world family healthcare and caregiver support.
+The project explores how specialized AI agents, shared memory, and event-driven communication can work together to simplify and coordinate everyday caregiving tasks.
 
-* **Robust Multi-Agent Framework**: Uses a strict **Planner Supervisor** + **Reflection Agent** model ensuring clinical security and zero hallucinations.
-* **MCP Standards Compliance**: Completely segregates the persistent SQLite database from direct LLM interactions, forcing validation at the MCP tool boundaries.
-* **Transactional Reliability**: Relies on a transactional SQLite persistence layer with optimized index structures and `WAL` mode, eliminating full-file-rewrite corruption risk entirely.
-* **Real-World Resiliency**: Survives missing API keys or active internet outages via the local clinical regex fallback engine.
-* **Deep Observability**: Provides a dedicated **Mission Control** interface for hackathon judges to verify active queue metrics, latencies, and transaction logs.
+---
+### Author
+  Swapnil Mukherjee
